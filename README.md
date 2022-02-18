@@ -11,7 +11,6 @@ Upcoming start-ups wanting to set up EV charging infrastructures and services.
 City planning commissions optimize EV chargers to balance their traffic influx. 
 Promote electrification and thereby fight climate change.
 People to switch from conventional fuel engine cars to environment-friendly electric cars.
-![image](https://user-images.githubusercontent.com/25654606/154651393-e109e863-a9f6-4b58-b7d8-285db5bd27f6.png)
 </p>
 
 <p>In our study, we take the example of Seattle, WA for our experiment. We found datasets from the afdc.energy.gov website. We then found the population demographics from various sources and created a Deep Neural Network using the aforementioned data taking into account the average population, average household income and average age for each city neighbourhood. Then we deploy the model on the cloud to search for the best points where new EV chargers can be installed. This project is meant to serve any upcoming startups or city planning commissions that may want to set up new charging stations in their city and may search for a similar concept.</p>
