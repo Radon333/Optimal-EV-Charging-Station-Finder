@@ -1,5 +1,5 @@
-<h1> EV-charger-Sherlock</h1>
-<h3>HackMIT 2021 Project</h3>
+<h1> Optimal-EV-Charging-Station-Finder
+</h1>
 
 ![1](https://user-images.githubusercontent.com/25654606/133933981-5d30c1c0-3a5c-407f-b2f2-89d02e536c56.png)
 
@@ -14,7 +14,9 @@
 
 
 # Team Members
-<h4>• Raj Shah</h4>
-<h4>• Farhan Patel</h4>
 <h4>• Saket Pradhan</h4>
+<h4>• Raj Shah</h4>
 <h4>• Ranveer Shah</h4>
+<h4>• Anuj Goenka</h4>
+<h4>• Atharva Bandhan</h4>
+<h4>• Ananya Shetty</h4>
