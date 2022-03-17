@@ -1,17 +1,12 @@
-<h1>Finding Optimal Location to Install EV Charging Stations</h1>
+<h1> EV-charger-Sherlock</h1>
+<h3>HackMIT 2021 Project</h3>
 
 ![1](https://user-images.githubusercontent.com/25654606/133933981-5d30c1c0-3a5c-407f-b2f2-89d02e536c56.png)
 
 
 # Project Description
 
-<p>Since all of us today bear the foul consequences of climate change due to the unrestricted release of greenhouse gasses into our atmosphere over tens of years, electrification must be promoted wherever possible to secure the fate and future of our planet, and by extension, us. Thus, we propose creating a system that helps one identify the optimal locations for the installing new EV charging stations in a selected city based on various parameters. With an exponential rise in global EV sales and especially in metropolitan India, our idea will serve to help:
-
-<p>Upcoming start-ups wanting to set up EV charging infrastructures and services.</p>
-<p>City planning commissions optimize EV chargers to balance their traffic influx. </p>
-<p>Promote electrification and thereby fight climate change.</p>
-<p>People to switch from conventional fuel engine cars to environment-friendly electric cars.</p>
-</p>
+<p>This project helps one to identify the optimal locations for the installation of new EV charging stations in a city. Since all of us today bear the foul consequences of global warming and climate change due to the unrestricted release of greenhouse gasses into our atmosphere over tens of years, electrification has to be promoted wherever possible to secure the fate and future of our planet, and by extension, us. Thus, we have created an interactive algorithm to find out the perfect places to install electric charging infrastructure in a city, that would encourage people to switch from conventional fuel engine cars to environment-friendly electric cars.</p>
 
 <p>In our study, we take the example of Seattle, WA for our experiment. We found datasets from the afdc.energy.gov website. We then found the population demographics from various sources and created a Deep Neural Network using the aforementioned data taking into account the average population, average household income and average age for each city neighbourhood. Then we deploy the model on the cloud to search for the best points where new EV chargers can be installed. This project is meant to serve any upcoming startups or city planning commissions that may want to set up new charging stations in their city and may search for a similar concept.</p>
   
@@ -20,8 +15,6 @@
 
 # Team Members
 <h4>• Raj Shah</h4>
-<h4>• Anuj Goenka</h4>
+<h4>• Farhan Patel</h4>
 <h4>• Saket Pradhan</h4>
 <h4>• Ranveer Shah</h4>
-<h4>• Atharva Bandhan</h4>
-<h4>• Ananya Shetty</h4>

@@ -38,7 +38,7 @@ def give_output(input_value, final):
 def predict(noOfEvs: int = Form(...)):  # input is from forms
     get_array = getArray()
     loaded_model = tf.keras.models.load_model(
-        'model.h5')  # loading the saved model
+        'hackmit.h5')  # loading the saved model
     predictions_array = loaded_model.predict(get_array)  # making predictions
     accuracy = getAccuracy(predictions_array)
     output = give_output(noOfEvs, accuracy)

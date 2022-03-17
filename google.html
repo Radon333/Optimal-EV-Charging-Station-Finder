@@ -2,7 +2,7 @@
 <html>
 
     <head>
-        <title>Simple Map</title>
+        <title>Find Optimal Locations</title>
         <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
         <link rel="stylesheet" type="text/css" href="./style.css" />
         <link rel="stylesheet" href="./style.css" />
@@ -32,6 +32,7 @@
                     <select class="custom-select menu">
 
                         <option value="Seattle">Seattle</option>
+                        <option value="New_Delhi">New Delhi</option>
                     </select>
                     <div class="form-group">
                         <br>
@@ -114,10 +115,35 @@
                 })
                 .catch(error => console.log(error));
         }
+        function delhiApiCall() {
+            var evc = document.getElementById("inpnum").value;
+
+            fetch("./delhi_new_points.json")
+                .then(response => response.json())
+                .then(data => {
+                    //console.log(data[0].Longitude)
+                    var points = []
+                    for (let i = 0; i < evc; i++) {
+                        points.push({
+                            lat: JSON.parse(data[i].Latitude),
+                            lng: JSON.parse(data[i].Longitude)
+                        })
+                    }
+
+                    for (let i = 0; i < points.length; i++) {
+                        const marker = new google.maps.Marker({
+                            position: points[i],
+                            map: map,
+                            icon: 'optimizedevcs.png'
+                        });
+                    }
+                })
+                .catch(error => console.log(error));
+        }
     </script>
 
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=**YOUR API KEY HERE**&callback=initMap&v=weekly" async></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1N9jNP11MmndCrSTSr42qn9_u7WWRP8U&callback=initMap&v=weekly" async></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
 
